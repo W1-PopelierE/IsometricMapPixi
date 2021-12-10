@@ -20,32 +20,32 @@ window.onload = function () {
     document.body.appendChild(app.view);
 
     tiles["defaultTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_072.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_072.png"
     );
     tiles["defaultTile"].offsetY = 0;
 
     tiles["fountainTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_043.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_043.png"
     );
     tiles["fountainTile"].offsetY = -0.5;
     tiles["topCornerRoadTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_122.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_122.png"
     );
     tiles["rightCornerRoadTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_125.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_125.png"
     );
     tiles["bottomCornerRoadTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_126.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_126.png"
     );
     tiles["leftCornerRoadTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_124.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_124.png"
     );
 
     tiles["RoadDownRightTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_073.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_073.png"
     );
     tiles["RoadDownLeftTile"] = new PIXI.Sprite.from(
-        "/assets/city/PNG/cityTiles_081.png"
+        "/IsometricMapPixi/assets/city/PNG/cityTiles_081.png"
     );
 
     const container = new PIXI.Container();
